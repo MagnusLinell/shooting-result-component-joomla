@@ -1,0 +1,1 @@
+# shooting-result-component-joomla
