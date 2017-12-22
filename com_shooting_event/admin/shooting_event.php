@@ -7,14 +7,11 @@
 
 <html>
    <head>
-     <title>Resultat</title>
+     <title>Redigera event</title>
    </head>
    <body>
-
-     <h2><?php echo "Hej, {$user->name}!"; ?></h2>
-
-     <h3>Resultat</h3>
-
+     <?php echo "User: name={$user->name}, username={$user->username}"; ?>
+     <?php echo '<p>Grattis! Du har kommit till redigera eventsidan!</p>'; ?>
    </body>
 </html>
 

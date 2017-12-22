@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extension type="package" version="1.6" method="upgrade">
-  <name>shooting_result</name>
+  <name>shooting</name>
   <author>Magnus Linell</author>
   <creationDate>December 2017</creationDate>
-  <packagename>pkg_shooting_result</packagename>
+  <packagename>pkg_shooting</packagename>
   <version>0.0.1</version>
-  <description>Shooting Result Package</description>
+  <description>Shooting Package</description>
   <files folder="packages">
     <file type="component" id="com_shooting_result" >com_shooting_result.zip</file>
+    <file type="component" id="com_shooting_event" >com_shooting_event.zip</file>
   </files>
 </extension>
