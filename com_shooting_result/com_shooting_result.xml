@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.2.0" method="upgrade">
 
-	<name>Shooting Result Component</name>
+	<name>shooting_result</name>
 	<creationDate>December 2017</creationDate>
 	<author>Magnus Linell</author>
 	<license>MIT</license>

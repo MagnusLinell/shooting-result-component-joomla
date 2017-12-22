@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extension type="package" version="1.6" method="upgrade">
-  <name>Shooting Result Package</name>
+  <name>shooting_result</name>
   <author>Magnus Linell</author>
   <creationDate>December 2017</creationDate>
   <packagename>pkg_shooting_result</packagename>
