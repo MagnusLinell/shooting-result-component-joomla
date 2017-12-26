@@ -1,3 +1,8 @@
+/**/admin/sql/updates
+/dist/
+/build/
+.DS_Store
+
 /.gitignore
 /.htaccess
 /administrator/cache/*
@@ -533,6 +538,3 @@
 /joomla.xml
 /*.txt
 /robots.txt.dist
-
-/build/
-.DS_Store

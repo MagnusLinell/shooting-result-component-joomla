@@ -7,7 +7,7 @@
 
 <html>
    <head>
-     <title>Redigera resultat</title>
+     <title>Redigera event</title>
    </head>
    <body>
      <?php echo "User: name={$user->name}, username={$user->username}"; ?>

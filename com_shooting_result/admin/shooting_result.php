@@ -10,8 +10,7 @@
      <title>Redigera resultat</title>
    </head>
    <body>
-     <?php echo "User: name={$user->name}, username={$user->username}"; ?>
-     <?php echo '<p>Grattis! Du har kommit till redigera resultatsidan!</p>'; ?>
+     <?php echo "Hello {$user->name}, this is the admin result page!"; ?>
    </body>
 </html>
 

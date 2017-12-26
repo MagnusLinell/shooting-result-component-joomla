@@ -1,23 +1,10 @@
 <?php
-  $user = JFactory::getUser();
-  if ($user->guest) {
-  		echo "<p>You must login to see the content.</p>";
-	} else {
-?>
 
-<html>
-   <head>
-     <title>Resultat</title>
-   </head>
-   <body>
+  defined('_JEXEC') or die('Restricted access');
 
-     <h2><?php echo "Hej, {$user->name}!"; ?></h2>
+  $controller = JControllerLegacy::getInstance('ShootingResult');
 
-     <h3>Resultat</h3>
+  $input = JFactory::getApplication()->input;
+  $controller->execute($input->getCmd('task'));
 
-   </body>
-</html>
-
-<?php
-  }
-?>
+  $controller->redirect();
