@@ -1,9 +1,8 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
 ?>
-<h1><?php echo "Resultat Precision: "; echo count($this->results); ?></h1>
 
-<h3>Resultat Precision</h3>
+<h2>Resultat Precision</h2>
 
 <table style="width: 100%;">
  <thead>

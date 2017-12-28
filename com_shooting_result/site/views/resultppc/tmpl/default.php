@@ -2,9 +2,7 @@
 defined('_JEXEC') or die('Restricted access');
 ?>
 
-<h1><?php echo "Resultat PPC: "; echo count($this->results); ?></h1>
-
-<h3>Resultat PPC</h3>
+<h2>Resultat PPC</h2>
 
 <table style="width: 100%;">
  <thead>

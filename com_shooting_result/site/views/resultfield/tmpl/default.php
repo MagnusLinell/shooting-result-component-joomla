@@ -2,9 +2,7 @@
 defined('_JEXEC') or die('Restricted access');
 ?>
 
-<h1><?php echo "Resultat Fält: "; echo count($this->results); ?></h1>
-
-<h3>Resultat Fält</h3>
+<h2>Resultat Fält</h2>
 
 <table style="width: 100%;">
  <thead>
