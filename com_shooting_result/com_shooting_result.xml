@@ -5,7 +5,7 @@
 	<creationDate>December 2017</creationDate>
 	<author>Magnus Linell</author>
 	<license>MIT</license>
-	<version>0.0.14</version>
+	<version>0.0.19</version>
 	<description>Shooting Result Component</description>
 
 	<!-- SQL install, uninstall and updates -->
@@ -41,7 +41,6 @@
 			<filename>index.html</filename>
 			<filename>shooting_result.php</filename>
 			<folder>sql</folder>
-			<folder>tables</folder>
 		</files>
 	</administration>
 

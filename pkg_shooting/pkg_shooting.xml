@@ -4,10 +4,9 @@
   <author>Magnus Linell</author>
   <creationDate>December 2017</creationDate>
   <packagename>pkg_shooting</packagename>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>Shooting Package</description>
   <files folder="packages">
     <file type="component" id="com_shooting_result" >com_shooting_result.zip</file>
-    <file type="component" id="com_shooting_event" >com_shooting_event.zip</file>
   </files>
 </extension>
